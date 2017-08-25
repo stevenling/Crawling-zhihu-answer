@@ -64,9 +64,10 @@ driver.find_element_by_css_selector('button.QuestionMainAction').click()
 
 
 #### 5. 结果展示
-![image](D://Desktop/image/1.png)
+![image](https://github.com/stevenling/Crawling-zhihu-answer/raw/master/image/1.png)
 
-![image](D://Desktop/image/2.png)
+![image](https://github.com/stevenling/Crawling-zhihu-answer/raw/master/image/2.png)
 
-![image](D://Desktop/image/3.png)
+![image](https://github.com/stevenling/Crawling-zhihu-answer/raw/master/image/3.png)
+
 
