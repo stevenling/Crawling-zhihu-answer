@@ -1,10 +1,7 @@
 from selenium import webdriver
 import time
-
 import urllib.request
-
 from bs4 import BeautifulSoup
-
 import html.parser
 
 def main():
@@ -33,7 +30,6 @@ def main():
         girls.write(result_bf)
     girls.close()
     print("爬取回答页面成功!!!")
-
 
     with open("./output/rawfile/noscript_meta.txt", 'wb') as noscript_meta:
         noscript_nodes = result_soup.find_all('noscript')  # 找到所有<noscript>node
