@@ -1,5 +1,5 @@
-## 爬取知乎问题下的答案图片
-#### 1. 安装库
+# 爬取知乎问题下的答案图片
+## 1. 安装库
 htmlparser用来解析html。
 
 Beautiful Soup 是一个可以从 HTML 或 XML 文件中提取数据的 Python 库。
@@ -12,9 +12,7 @@ Selenium 是浏览器自动化测试框架，使用它来模拟用户操作。
 > pip install -U selenium
 
 
-
-
-#### 2. 模拟用户进行滚动和点击操作
+## 2. 模拟用户进行滚动和点击操作
 
 使用JS控制滚动条的位置：
 
@@ -39,13 +37,13 @@ driver.find_element_by_css_selector('button.QuestionMainAction').click()
 
 来选中并点击这个按钮。
 
-#### 3. html文件结构化
+## 3. html文件结构化
 
 将html文件结构化并保存，原页面的html解析并存储下来
 
 通过prettify()将html结构化，之后存储在本地的txt文件中。
 
-#### 4. 保存并下载图片
+## 4. 保存并下载图片
 
 
 注意我们的目的，就是爬取回答下的图片，其他的都不需要。
@@ -63,7 +61,7 @@ driver.find_element_by_css_selector('button.QuestionMainAction').click()
 >  urllib.request.urlretrieve
 
 
-#### 5. 结果展示
+## 5. 结果展示
 ![image](https://github.com/stevenling/Crawling-zhihu-answer/raw/master/image/1.png)
 
 ![image](https://github.com/stevenling/Crawling-zhihu-answer/raw/master/image/2.png)
